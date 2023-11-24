@@ -7,7 +7,8 @@
 
 
 body {
-    font-family: 'consolas';
+    font-family: 'Martian Mono', monospace;
+
     color: white;
     background-color: black;
 }
@@ -54,6 +55,7 @@ body {
     display: flex;
     text-align: center;
     font-size: 30px;
+    font-weight: 200;
 }
 
 
@@ -249,4 +251,21 @@ button:hover {
 
 .proyectos_style div h2 {
     margin: 20px 0;
+}
+
+
+/* MERCH */
+
+.merch{
+    font-size: 40px;
+}
+
+.merch p { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* margin: 0; */
+    text-align: center;
 }
